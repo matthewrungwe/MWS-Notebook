@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+}
+
+/*Overall Body styles*/
+body{
+    background-image: url("../images/grey-wall.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family:  'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.section-heading{
+    margin: 10px 0;
+}
+
+.section-heading h1{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.M{
+    color: red;
+}
+
+.W{
+   color: yellow; 
+}
+
+.S{
+    color: green;
+}
+
+/* Overall Body styles end */
+
+/* Navigation */
+nav{
+    background-color: rgb(76, 89, 89);
+}
+nav ul{
+    display: inline;
+}
+
+nav li{
+    display: inline;
+    text-decoration: none;
+}
+
+nav li{
+    margin: 0 20px;
+}
+
+nav a{
+    color: white;
+    height: 100%;
+}
+
+nav a:hover{
+    color: teal;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: lightslategray;
+    border-radius: 2px;
+}
+
+nav a:active{
+    
+}
+/* Navigation End */
+
+/* Header/Home theme */
+#home{
+    background-image: url("../blurred-background.jpg");
+    /* background: no-repeat center center; */
+    /* background-attachment: scroll; */
+    /* background-color: #868e96; */
+    /* min-height: 700px; */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+
+.intro-msg p{
+    width: 100%;
+    height: auto;
+    text-align: center; 
+    color: white;
+    font-size: 3em;
+
+}
+/* Header/Home theme end */
+
+/* Main */
+#about-me img{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+main p{
+    text-align: justify;
+    padding: 20px;
+}
+
+#notebook, #about-me, #providers{
+    margin: 20px;
+}
+
+#notebook article{
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+#notebook img{
+    width: 85%;
+    height: 85%;
+}
+
+article div{
+    padding: 10px;
+}
+
+.css2{
+    display: none;
+}
+
+.providers img{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: white;
+}
+/* Main end */
+
+/* Footer */
+footer{
+    background-color:  rgb(76, 89, 89);
+    height: 20%;
+}
+
+#address, #contact{
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid white; */
+}
+
+footer address{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.map-image img{
+    width: 100%;
+    height: 100%;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+}
+/* Footer end */
+
+@media(max-width:562px){
+    .css2{
+        display: unset;
+    }
+
+    .css1{
+        display: none;
+    }
+}
